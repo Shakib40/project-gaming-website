@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable max-len */
+import React from "react";
 
 const NewsletterSections = () => {
     return (
@@ -81,6 +82,6 @@ const NewsletterSections = () => {
             </div>
         </div>
     );
-}
+};
 
 export default NewsletterSections;

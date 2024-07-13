@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const TermService = () => {
     return (
         <div>TermService</div>
-    )
-}
+    );
+};
 
-export default TermService
+export default TermService;

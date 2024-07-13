@@ -1,11 +1,12 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+/* eslint-disable max-len */
+import React from "react";
+import { useNavigate } from "react-router-dom";
 const Footer = () => {
     const navigate = useNavigate();
 
     const handleNavigate = (link) => {
-        navigate(link)
-    }
+        navigate(link);
+    };
     return (
         <footer className="bg-gray-100 text-gray-600 py-8">
             <div className="max-w-7xl mx-auto px-4">
@@ -42,10 +43,10 @@ const Footer = () => {
                     <div className="col-span-1 md:col-span-1">
                         <h6 className="font-semibold mb-4">Legal</h6>
                         <ul>
-                            <li className="hover:underline" onClick={() => handleNavigate('/privacy-policy')}>Privacy Policy </li>
-                            <li className="hover:underline" onClick={() => handleNavigate('/term-service')}>Terms of Service </li>
-                            <li className="hover:underline" onClick={() => handleNavigate('/refund-policy')}>Refund Policy </li>
-                            <li className="hover:underline" onClick={() => handleNavigate('/cancellation-policy')}>Cancellation Policy </li>
+                            <li className="hover:underline" onClick={() => handleNavigate("/privacy-policy")}>Privacy Policy </li>
+                            <li className="hover:underline" onClick={() => handleNavigate("/term-service")}>Terms of Service </li>
+                            <li className="hover:underline" onClick={() => handleNavigate("/refund-policy")}>Refund Policy </li>
+                            <li className="hover:underline" onClick={() => handleNavigate("/cancellation-policy")}>Cancellation Policy </li>
                         </ul>
                     </div>
                     <div className="col-span-1 md:col-span-1">

@@ -1,4 +1,0 @@
-"rules": {
-    "jsx-a11y/anchor-is-valid": "warn",
-    "jsx-a11y/no-redundant-roles": "warn"
-}

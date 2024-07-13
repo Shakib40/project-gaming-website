@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable max-len */
+import React from "react";
 
 const TeamSections = () => {
     return (
@@ -58,7 +59,7 @@ const TeamSections = () => {
                 </ul>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default TeamSections
+export default TeamSections;
