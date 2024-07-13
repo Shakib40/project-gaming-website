@@ -15,9 +15,9 @@ const Header = () => {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    <a className="text-sm font-semibold leading-6 text-gray-900">HOME</a>
-                    <a className="text-sm font-semibold leading-6 text-gray-900">ABOUT</a>
-                    <a className="text-sm font-semibold leading-6 text-gray-900">CONTACT US</a>
+                    <span className="text-sm font-semibold leading-6 text-gray-900">HOME</span>
+                    <span className="text-sm font-semibold leading-6 text-gray-900">ABOUT</span>
+                    <span className="text-sm font-semibold leading-6 text-gray-900">CONTACT US</span>
 
                 </div>
 

@@ -13,29 +13,30 @@ const Footer = () => {
                     <div className="col-span-1 md:col-span-1">
                         <h6 className="font-semibold mb-4">Solutions</h6>
                         <ul>
-                            <li><a className="hover:underline">Marketing</a></li>
-                            <li><a className="hover:underline">Analytics</a></li>
-                            <li><a className="hover:underline">Commerce</a></li>
-                            <li><a className="hover:underline">Insights</a></li>
+                            <li className="hover:underline">Marketing</li>
+                            <li className="hover:underline">Analytics</li>
+                            <li className="hover:underline">Commerce</li>
+                            <li className="hover:underline">Insights</li>
+
                         </ul>
                     </div>
                     <div className="col-span-1 md:col-span-1">
                         <h6 className="font-semibold mb-4">Support</h6>
                         <ul>
-                            <li><a className="hover:underline">Pricing</a></li>
-                            <li><a className="hover:underline">Documentation</a></li>
-                            <li><a className="hover:underline">Guides</a></li>
-                            <li><a className="hover:underline">API Status</a></li>
+                            <li className="hover:underline">Pricing</li>
+                            <li className="hover:underline">Documentation</li>
+
                         </ul>
                     </div>
                     <div className="col-span-1 md:col-span-1">
                         <h6 className="font-semibold mb-4">Company</h6>
                         <ul>
-                            <li><a className="hover:underline">About</a></li>
-                            <li><a className="hover:underline">Blog</a></li>
-                            <li><a className="hover:underline">Jobs</a></li>
-                            <li><a className="hover:underline">Press</a></li>
-                            <li><a className="hover:underline">Partners</a></li>
+                            <li className="hover:underline">About</li>
+                            <li className="hover:underline">Blog</li>
+                            <li className="hover:underline">Jobs</li>
+                            <li className="hover:underline">Press</li>
+                            <li className="hover:underline">Partners</li>
+
                         </ul>
                     </div>
                     <div className="col-span-1 md:col-span-1">
@@ -63,11 +64,11 @@ const Footer = () => {
                 <div className="flex justify-between items-center mt-8 border-t pt-4">
                     <p className="text-sm">© 2020 Your Company, Inc. All rights reserved.</p>
                     <div className="flex space-x-4">
-                        <a className="text-gray-600 hover:text-gray-800"><i className="fab fa-facebook"></i></a>
-                        <a className="text-gray-600 hover:text-gray-800"><i className="fab fa-instagram"></i></a>
-                        <a className="text-gray-600 hover:text-gray-800"><i className="fab fa-twitter"></i></a>
-                        <a className="text-gray-600 hover:text-gray-800"><i className="fab fa-github"></i></a>
-                        <a className="text-gray-600 hover:text-gray-800"><i className="fab fa-youtube"></i></a>
+                        <span className="text-gray-600 hover:text-gray-800"><i className="fab fa-facebook"></i></span>
+                        <span className="text-gray-600 hover:text-gray-800"><i className="fab fa-instagram"></i></span>
+                        <span className="text-gray-600 hover:text-gray-800"><i className="fab fa-twitter"></i></span>
+                        <span className="text-gray-600 hover:text-gray-800"><i className="fab fa-github"></i></span>
+                        <span className="text-gray-600 hover:text-gray-800"><i className="fab fa-youtube"></i></span>
                     </div>
                 </div>
             </div>
