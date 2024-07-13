@@ -1,11 +1,12 @@
 /* eslint-disable max-len */
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 const Footer = () => {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const handleNavigate = (link) => {
-        navigate(link);
+        // navigate(link);
+        window.location.href = link;
     };
     return (
         <footer className="bg-gray-100 text-gray-600 py-8">
