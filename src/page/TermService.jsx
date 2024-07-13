@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const TermsAndConditions = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className="max-w-4xl mx-auto p-8">
             <h1 className="text-3xl font-bold mb-6">Terms and Conditions</h1>
