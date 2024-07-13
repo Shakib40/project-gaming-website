@@ -1,12 +1,14 @@
-/* eslint-disable max-len */
 
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 const Header = () => {
+    const navigate = useNavigate();
 
     return (
         <header className="bg-white">
             <nav className="mx-auto flex max-w-7xl items-center justify-between py-4 lg:px-4" aria-label="Global">
-                <div className="flex lg:flex-1">
+                <div className="flex lg:flex-1" onClick={() => navigate("/")}>
                     <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
                 </div>
                 <div className="flex lg:hidden">
@@ -17,7 +19,7 @@ const Header = () => {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    <span className="text-sm font-semibold leading-6 text-gray-900">HOME</span>
+                    <span className="text-sm font-semibold leading-6 text-gray-900" onClick={() => navigate("/")}>HOME</span>
                     <span className="text-sm font-semibold leading-6 text-gray-900">ABOUT</span>
                     <span className="text-sm font-semibold leading-6 text-gray-900">CONTACT US</span>
 
